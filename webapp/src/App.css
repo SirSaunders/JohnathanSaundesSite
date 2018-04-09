@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+    padding-bottom: 20px;
+}
+.App-Background{
+    background-color: #eeeeee;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+.Profile-pic{
+    height: 250px;
+    border-radius:5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Info-Selection{
+  float: right;
+  clear: right;
+  width: 200px;
+  margin-right: 30px;
+}
+.App-header {
+  background-color: #222;
+  height: 300px;
+  padding: 20px;
+  color: white;
+}
+
+.About-Section{
+    font-size: large;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    column-gap: 90px;
+}
+
+.Crop-Fit{
+    object-fit: cover;
+}
+.Contact-Me{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.Contact-Me-List{
+    list-style-type: none;
+}
+
+
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
